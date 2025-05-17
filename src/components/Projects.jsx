@@ -1,29 +1,23 @@
 import React from "react";
-import employeeMSImage from "../assets/employee-ms.png";
-import bookMSImage from "../assets/admin-dashboard.png";
+import mega from "../assets/megablog.png";
+import netfllix from "../assets/netflix.png";
 
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "Mega Blog",
+    technologies: "Html & CSS, JavaScript, React JS, Tailwind CSS, Appwrite",
+    image: mega,
+    github: "https://github.com/dhruvvnegii/AppwriteMegaBlog.git",
   },
   {
     id: 2,
-    name: "Blog App",
-    technologies: "MERN Stack",
-    image: bookMSImage,
-    github: "https://github.com/YouafKhan1",
+    name: "Netflix Landing Page",
+    technologies: "Html & CSS",
+    image: netfllix,
+    github: "https://github.com/dhruvvnegii/Netflix-Landing-Page.git",
   },
-  {
-    id: 3,
-    name: "Book MS",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
-  },
+ 
 ];
 
 const Projects = () => {
